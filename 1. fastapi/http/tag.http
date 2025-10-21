@@ -1,0 +1,11 @@
+### create tag
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+    "tag": "test_tag"
+}
+
+### get Tag
+GET http://localhost:8000/test_tag
+Content-Type: application/json

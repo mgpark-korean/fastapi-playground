@@ -1,0 +1,25 @@
+### FastAPI Get method
+GET http://localhost:8000/hello
+
+### FastAPI Get Path Valriable
+GET http://localhost:8000/hello/tom
+
+### FastAPI Query Paramter
+GET http://localhost:8000/hello-query?who=tom
+
+### FastAPI Body
+POST http://localhost:8000/hello
+
+{
+    "who": "tom1"
+}
+
+### FastAPI Header
+GET http://localhost:8000/hello-header
+who: tom1
+
+### FastAPI 200 response
+GET http://localhost:8000/happy
+
+### FastAPI Response header
+GET http://localhost:8000/header/header1/1
