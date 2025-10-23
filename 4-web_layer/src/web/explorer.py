@@ -1,7 +1,6 @@
 from fastapi import APIRouter
-from websockets import route
 from model.explorer import Explorer
-import fake.explorer as service
+import service.explorer as service
 
 
 __prefix__ = "explorer"

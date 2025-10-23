@@ -1,0 +1,45 @@
+
+### get all creature
+GET http://localhost:8000/creature/
+
+### get by name creature
+GET http://localhost:8000/creature/yeti
+
+### create new creature
+POST http://localhost:8000/creature
+
+{
+    "name": "Pikachu",
+    "country": "JP",
+    "area": "*",
+    "description": "electoronic pockemon",
+    "aka": "Satosi's pockemon"
+}
+
+### patch creature
+PATCH http://localhost:8000/creature/yeti
+
+{
+    "name": "Pikachu",
+    "country": "JP",
+    "area": "*",
+    "description": "electoronic pockemon",
+    "aka": "Satosi's pockemon"
+}
+
+### put creature
+PATCH http://localhost:8000/creature/Clause Handeyeti
+
+{
+    "name": "Pikachu",
+    "country": "JP",
+    "area": "*",
+    "description": "electoronic pockemon",
+    "aka": "Satosi's pockemon"
+}
+
+### delete creature
+DELETE http://localhost:8000/creature/Clause Hande
+
+
+

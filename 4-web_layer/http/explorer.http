@@ -1,0 +1,44 @@
+### top endpoin
+GET http://localhost:8000/
+
+### echo test
+GET http://localhost:8000/echo/test
+
+### get all explorer
+GET http://localhost:8000/explorer/
+
+### get by name explorer
+GET http://localhost:8000/explorer/Clause Hande
+
+### create new explorer
+POST http://localhost:8000/explorer
+
+{
+    "name": "Tom Park",
+    "country": "KR",
+    "description": "어둠의 개발자."
+}
+
+### patch explorer
+PATCH http://localhost:8000/explorer/Clause Hande
+
+{
+    "name": "Tom Park",
+    "country": "KR",
+    "description": "어둠의 개발자."
+}
+
+### put explorer
+PATCH http://localhost:8000/explorer/Clause Hande
+
+{
+    "name": "Tom Park",
+    "country": "KR",
+    "description": "어둠의 개발자."
+}
+
+### delete explorer
+DELETE http://localhost:8000/explorer/Clause Hande
+
+
+

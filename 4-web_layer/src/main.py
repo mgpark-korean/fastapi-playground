@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from web import explorer, creature
+from .web import explorer, creature
 
 # 실행시 python main.py &
 #  - & : background 실행
@@ -13,7 +13,7 @@ def top():
     return "top here"
 
 @app.get("/echo/{thing}")
-def echo(thing):
+def echo(thing: str):
     return f"echoing {thing}"
 
 if __name__ == "__main__":
